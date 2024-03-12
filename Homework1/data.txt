@@ -1,0 +1,87 @@
+##########   500MB    #############
+    TCP-streaming :
+            Client:
+                    Total transfer time: 0.318 seconds
+                    Number of messages sent : 16103
+                    Number of bytes sent : 524297377
+            Server:
+                    Used protocol : TCP
+                    Number of messages read: 16103
+                    Number of bytes read: 524297377
+
+    TCP-stop-and-wait :
+            Client:
+                    Total transfer time : 0.938 seconds
+                    Number of messages sent: 16012
+                    Number of bytes sent: 524315420
+            Server:
+                    Used protocol : TCP
+                    Number of messages read : 16012
+                    Number of bytes read : 524315420
+
+    UDP-streaming :
+            Client:
+                    Transfer time : 0.265 seconds
+                    Number of messages sent : 16027
+                    Number of bytes sent : 524325777
+            Server:
+                    Used protocol : UDP
+                    Number of messages read : 16027
+                    Number of bytes read : 524325777
+
+    UDP-stop-and-wait :
+            Client:
+                    Transfer time : 1.018 seconds
+                    Number of messages sent : 16195
+                    Number of bytes sent : 524288871
+            Server:
+                    Used protocol : UDP
+                    Number of messages read : 16195
+                    Number of bytes read : 524288871
+
+
+
+
+##########  1000MB   #############
+    TCP-streaming :
+            Client:
+                    Total transfer time: 0.788 seconds
+                    Number of messages sent : 31913
+                    Number of bytes sent : 1048620106
+            Server:
+                    Used protocol : TCP
+                    Number of messages read: 31913
+                    Number of bytes read: 1048620106
+
+    TCP-stop-and-wait :
+            Client:
+                    Total transfer time : 1.829 seconds
+                    Number of messages sent: 32059
+                    Number of bytes sent: 1048622176
+            Server:
+                    Used protocol : TCP
+                    Number of messages read : 32059
+                    Number of bytes read : 1048622176
+
+
+    UDP-streaming :
+            Client:
+                    Transfer time : 0.403 seconds
+                    Number of messages sent : 32164
+                    Number of bytes sent : 1048600737
+
+            Server:
+                    Used protocol : TCP
+                    Number of messages read : 32059
+                    Number of bytes read : 1048622176
+
+    UDP-stop-and-wait :
+            Client:
+                    Transfer time : 2.024 seconds
+                    Number of messages sent : 32295
+                    Number of bytes sent : 1048583410
+            Server:
+                    Used protocol : UDP
+                    Number of messages read : 32295
+                    Number of bytes read : 1048583410
+
