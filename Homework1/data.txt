@@ -1,3 +1,10 @@
+* mesajele trimise sunt siruri de bytes cu dimensiune aleatorie cuprinsa intre 1 si 65535;
+* client :
+    - pentru a rula clientul folosim : python .\client.py -c [TCP/UDP]  -t [streaming/stop-and-wait] -size [500/1000];
+    - in cazul clientului TCP, inainte de a trimite un mesaj trimitem dimensiunea mesajului;
+* server :
+    - pentru a rula serverul folosim : python .\server.py -c [TCP/UDP] -t [streaming/stop-and-wait];
+
 ##########   500MB    #############
     TCP-streaming :
             Client:

@@ -21,7 +21,7 @@ def tcp_streaming(message_size):
     number_of_messages = 0
 
     while bytes_sent < message_size:
-        curr_message_size = random.randint(1, 65535)
+        curr_message_size = random.randint(1, 65000)
         message = b'0' * curr_message_size
         sock.send(curr_message_size.to_bytes(8, byteorder='big'))
         sock.send(message)
@@ -134,7 +134,7 @@ def udp_stop_and_wait(message_size):
     sock.close()
 
 
-parser = argparse.ArgumentParser(description='TCP/UDP Server')
+parser = argparse.ArgumentParser(description='TCP/UDP Client')
 parser.add_argument('-c', '--connection', type=str,
                     choices=['TCP', 'UDP'], required=True, help='connection type: TCP or UDP')
 parser.add_argument('-t', '--transfer_mode', type=str, choices=[
